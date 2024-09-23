@@ -11,6 +11,7 @@ Reviewer:
 - Neurocomputing
 - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)
 - International Journal of Digital Earth (IJDE)
+- Multimedia Systems
 - International Journal of Machine Learning and Cybernetics
 - Journal of Supercomputing
 - Applied Geomatics
