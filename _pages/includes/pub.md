@@ -20,7 +20,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">æŠŠæ•
 <div class='paper-box-text' markdown="1">
 
 
-<a class=PaperTitle href="https://ieeexplore.ieee.org/document/10591792"><b>Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis</b></a> \\
+<a class=PaperTitle href="https://ieeexplore.ieee.org/document/10591792"><b>Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis</b></a> \\
  *IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2024* \\
 **<font color="#C00000">Chenyang Liu</font>**, Keyan Chen, Haotian Zhang, Zipeng Qi, Zhengxia Zou, Zhenwei Shi \\
 [<a href="https://ieeexplore.ieee.org/document/10591792">PDF</a>] [<a href="https://github.com/Chen-Yang-Liu/Change-Agent">Code</a>] \\
