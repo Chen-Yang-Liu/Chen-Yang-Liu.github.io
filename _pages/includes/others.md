@@ -7,6 +7,7 @@
 
 # 💻 Academic Service
 Reviewer:
+- IEEE Transactions on Image Processing (TIP)
 - IEEE Transactions on Geoscience and Remote Sensing (TGRS)
 - Computers in Industry
 - International Journal of Applied Earth Observation and Geoinformation
