@@ -11,6 +11,7 @@ Reviewer:
 - IEEE Transactions on Geoscience and Remote Sensing (TGRS)
 - Computers in Industry
 - International Journal of Applied Earth Observation and Geoinformation
+- IEEE Transactions on Artificial Intelligence (TAI)
 - Neurocomputing
 - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)
 - International Journal of Digital Earth (IJDE)
