@@ -1,0 +1,442 @@
+
+<!-- saved from url=(0040)https://zehaozhu.github.io/FSGS/ -->
+<html><head>
+<!--  <link id="favicon" rel="icon" href="./Assets/icon.png" sizes="16x16">-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>TriDF</title>
+	<meta property="og:title" content="TriDF">
+	<meta property="og:description" content="TriDF: Efficient Hybrid 3D Representation for Few-Shot Remote Sensing Novel View Synthesis">
+	<link rel="stylesheet" href="./Config/style.css">
+	<link rel="stylesheet" href="./Config/css">
+	<link rel="stylesheet" href="./Config/font-awesome.min.css">
+
+  <style id="ar94e88e2a9dstyle">
+                .ar94e88e2a9dhidden{ position:absolute !important; opacity:0 !important; pointer-events:none !important}
+            </style></head>
+<body><div class="header" id="top">
+          <h1 class="title is-1 publication-title" style="font-size: 45px;"><span style="color: #000080;;font-weight: bolder;">TriDF</span></h1>
+         <h1 class="title is-3 publication-title" style="font-size: 30px; margin-top: -20px;">Efficient Hybrid 3D Representation for Few-Shot</h1>
+	<h1 class="title is-3 publication-title" style="font-size: 30px; margin-top: -20px;">Remote Sensing Novel View Synthesis</h1>
+   <table class="authors">
+    <tbody>
+      <tr>
+        <td>
+          <h4>
+            <span class="authors">
+            <a href="https://kanehub.github.io/" style="color: #000080;;font-weight: bold; ">Jiaming Kang</a> &nbsp;
+            <a href="https://kyanchen.github.io" style="color: #000080;;font-weight: bold; ">Keyan Chen</a> &nbsp;
+            <a href="https://chen-yang-liu.github.io/" style="color: #000080;;font-weight: bold; ">Chenyang Liu</a> &nbsp;
+            <a href="https://zhengxiazou.github.io/" style="color: #000080;;font-weight: bold;">Zhengxia Zou</a> &nbsp;
+            <a href="https://shi.buaa.edu.cn/Levir/zh_CN/index/3114/list/index.htm" style="color: #000080;;font-weight: bold;">Zhenwei Shi</a> &nbsp;
+            
+
+          </span>
+
+          <span class="authors-affiliation" style="font-size: 20px;">
+            Beihang University 
+          </span>
+		  
+        <br>
+        <span class="authors-affiliation">
+                    </h4>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+  <div class="links" style="margin-top:-1.5%;">
+    
+    <a href="https://arxiv.org/abs/xxx.xxxxxx" class="btn"><svg class="svg-inline--fa fa-file-pdf fa-w-12 fa-lg" style="width: 18px; height: 18px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 500" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>&nbsp;&nbsp;Paper</a>&nbsp;&nbsp;
+    <a href="https://github.com/kanehub/TriDF" class="btn"><svg class="svg-inline--fa fa-github fa-w-16" style="width: 18px; height: 18px;" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 -50 484 500" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>&nbsp;&nbsp;Code <span style="font-size: 10px;"></span></a>
+<!--     <a href="https://youtu.be/xxxxxxx" class="btn" style="margin-left: 10px">
+        <svg style="width: 18px; height: 18px;" viewBox="0 -3 24 24">
+            <path fill="currentColor" d="M21.58,7.35C21.46,6.19 20.52,5.27 19.36,5.15C17.34,4.93 12,4.93 12,4.93s-5.34,0 -7.36,0.22C3.48,5.27 2.54,6.19 2.42,7.35C2.2,9.37 2.2,12 2.2,12s0,2.63 0.22,4.65c0.12,1.16 1.06,2.08 1.92,2.2c2.02,0.22 7.36,0.22 7.36,0.22s5.34,0 7.36,-0.22c0.86,-0.12 1.8,-1.04 1.92,-2.2c0.22,-2.02 0.22,-4.65 0.22,-4.65s0,-2.63 -0.22,-4.65zM9.92,15.55V8.45L15.92,12L9.92,15.55Z" />
+        </svg>
+        &nbsp;&nbsp;Video
+    </a> -->
+  </div>
+</div>
+<!--<div class="content">-->
+<!--	<div class="question" style="text-align: center; font-size: 26px; font-style: italic; background-color: #dddddd; display: flex; justify-content: center; align-items: center;">-->
+<!--    <br>-->
+<!--    "Can we unleash the power of pre-trained LMs to solve <br> sequential decision-making problems?" <br> &ensp;-->
+<!--  </div>-->
+  </div><div class="hr"></div>
+	<div>
+		<h2 style="color: #000080;;font-size: 35px">Overview</h2>
+      <div class="figure-caption" style="width: 70%">
+			<p style="font-size: 17px;">
+				Novel view synthesis (NVS) in remote sensing holds tremendous potential, which facilitates 3D interpretation of remote sensing scenes and
+				plays a significant role in urban planning and environmental monitoring. However, due to constraints in image acquisition, remote sensing scenes often 
+				suffer from insufficient multi-view images. Existing novel view synthesis algorithms tend to overfit the input views when facing such challenges, 
+				while advanced few-shot methods are time-consuming and perform poorly in remote sensing scenes. In this paper, we propose TriDF, 
+				an efficient hybrid representation combining tri-plane and density field for few-shot remote sensing novel view synthesis. 
+				We use explicit tri-plane representations to model the color information of spatial points, accelerating convergence through direct optimization of feature planes. 
+				Simultaneously, we model volume density as a continuous density field and integrate reference features from neighboring views using the image-based 
+				rendering framework to compensate for limited input information. Additionally, we introduce depth-guided optimization based on point clouds,
+				which effectively mitigates the overfitting problem in few-shot NVS. 
+				Experiments demonstrate that the proposed TriDF outperforms state-of-the-art novel view synthesis methods and achieves high-quality reconstructions within 5 minutes.
+					</p>
+		</div>
+      <div class="content-video" style="display: flex; justify-content: center; align-items: center;">
+
+
+<!--        <div class="publication-video">-->
+<!--             <iframe width="1120" height="630" src="https://www.youtube.com/embed/CarJgsx3DQY?si=d3TZzzP_43BT7Pnx"
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+           encrypted-media; " allowfullscreen></iframe> -->
+<!--          </div>-->
+	</div>
+
+  	</div><div class="hr"></div>
+	<div>
+		<h2 style="color: #000080;;font-size: 35px;">Method</h2>
+		<div class="figure-caption" style="width: 70%">
+			<p style="font-size: 17px;">
+<!--				<span style="font-weight: bolder; color: #000080;">TriDF</span> encompasses several crucial designs:</li>-->
+<!--              <ol type="1">-->
+<!--                <li> We adopt a pre-trained LM (<i>i.e.</i> GPT-2) as the initialization of a Decision Transformer (DT);</li>-->
+<!--                <li> We replace the linear embedding projections with MLPs to augment representation learning capabilities for complicated tasks;</li>-->
+<!--                <li> During training the offline RL agents, we freeze the pre-trained parts and utilize the parameter-efficient fine-tuning technique LoRA, where the trainable parameters account for only <span style="font-weight: bolder; color: #000080;">0.7%</span> of the entire model;</li>-->
+<!--                <li> We introduce language prediction as an auxiliary objective while finetuning, in order to stabilize the performance and maintain the language ability.</li>-->
+<!--              </ol>-->
+<!--               <span style="font-weight: bolder; color: #000080;">TriDF</span> are initialized from SfM, with a few images
+              (<span style="font-weight: bolder; color: black;">black cameras</span>). For the sparsely placed Gaussians, we propose densifying new Gaussians to enhance scene coverage by unpooling existing Gaussians into new ones, with properly initialized Gaussian attributes. Monocular depth priors, enhanced by sampling unobserved views
+              (<span style="font-weight: bolder; color: red;">red cameras</span>), guide the optimization of grown Gaussians towards a reasonable geometry. The final loss consists of a photometric loss term, and a geometric regularization term calculated as depth correlation. -->
+			We propose a hybrid 3D representation called TriDF, which utilizes explicit tri-plane representations and implicit density fields for efficient novel view synthesis in remote sensing scenes. 
+				Specifically, we explore the potential of tri-plane representations in few-shot rendering by discretizing the scene space into three mutually orthogonal feature planes, 
+				which provide a compact representation of color information with high-frequency components. 
+				This accelerates model convergence since the explicit feature planes can be directly optimized. 
+				Meanwhile, we model the scene geometry as the continuous density field and combine it with an image-based rendering framework that aggregates reference features from neighboring views to compensate for the lack of input scene information. 
+				Unlike traditional NeRF methods, we model the volume density separately to accelerate convergence as it exhibits spatial continuity and has a simpler distribution. 
+				Additionally, we propose a depth-guided optimization method based on 3D point clouds to address overfitting in few-shot rendering. We obtain coarse 3D point clouds through SfM and Patchmatch stereo and use sparse depth supervision to guide the model in reconstructing the correct scene geometry. 
+				This achieves stable optimization with minimal overhead.
+			</p>
+		</div>
+	</div>
+        <div style="text-align: center;">
+          <figure style="display: inline-block; max-width: 65%;">
+            <img src="Assets/Method.png" alt="Pipeline Image" style="max-width: 100%;">
+<!--            <figcaption>The workflow of <span style="color: rgb(128, 185, 90); font-weight: bolder;">Uni-O4</span> online-offline-online fine-tuning framework on real-world robots. </figcaption>-->
+          </figure>
+        </div>
+
+
+
+	<div class="hr"></div>
+	<div>
+		<h2 style="color: #000080;;font-size: 35px;">Baseline Comparisons</h2>
+		<div class="figure-caption" style="width: 70%">
+			<p>
+			The quantitative experiments on <span style="font-weight: bolder; color: #000080;">LEVIR-NVS</span> dataset show that our approach 
+				demonstrates superior performance across all three evaluation metrics compared with both different scene representation forms and state-of-the-art few-shot NeRF methods.
+<!--               We demonstrates the visual improvement of <span style="font-weight: bolder; color: #000080;">TriDF</span> compared with FreeNeRF and SparseNeRF in both the forward-scene and 360 degree dataset.
+              We can observe that NeRF-based methods generate floaters and lead to aliasing results due to limited observation
+              Our proposed <span style="font-weight: bolder; color: #000080;">TriDF</span> enforces more consistent and solid surfaces with geometric coherence. -->
+			</p>
+		</div>
+		
+<!--         <div class="content-video" style="margin-bottom: 40px">
+
+
+          <div class="content-video-container" >
+            <div class="content-video-frame" >
+              <span>FreeNeRF</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="comparison2/horns_free.mp4" type="video/mp4">
+              </video>
+            </div>
+
+
+            <div class="content-video-frame" >
+              <span>SparseNeRF</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="comparison2/horns_sparse.mp4" type="video/mp4">
+              </video>
+            </div>
+
+
+            <div class="content-video-frame" >
+              <span>3D-GS</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="comparison2/horns_3dgs.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="content-video-frame" >
+             <span style="font-weight: bolder; color: #000080;">TriDF</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="video/horns3w.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            
+
+          </div> -->
+        </div>
+	<div style="text-align: center;">
+          <figure style="display: inline-block; max-width: 75%;">
+            <img src="Assets/result.png" alt="Quantitive result" style="max-width: 100%;">
+          </figure>
+        </div>
+
+	<div class="figure-caption" style="width: 70%">
+			<p>
+			<span style="font-weight: bolder; color: #000080;">TriDF</span> successfully avoids the typical degradation problem observed in 
+				few-shot rendering and achieves superior rendering quality, which accurately recovers the delicate geometry of the scenes. 
+				Our approach achieves a more accurate reconstruction of scene details, 
+				such as the edges and corners of buildings, and synthesizes novel view images with higher fidelity.
+			</p>
+	</div>
+	<div style="text-align: center;">
+          <figure style="display: inline-block; max-width: 75%;">
+            <img src="Assets/vis_result.png" alt="Qualitive result" style="max-width: 100%;">
+          </figure>
+        </div>
+
+    </div>
+
+
+	<div class="hr"></div>
+	<div>
+		<h2 style="color: #000080;;font-size: 35px;">Visualizations on LEVIR-NVS dataset</h2>
+		<div class="figure-caption" style="width: 70%">
+			<p>
+				On LEVIR-NVS dataset, we visualize results from <span style="font-weight: bolder; color: #000080;">16</span> different scenes trained with <span style="font-weight: bolder; color: #000080;">3</span> views repectively.
+			    <span style="color: #000080;;font-weight: bolder;">TriDF</span> produces pleasing appearances while demonstrating detailed thin structures.
+            </p>
+		</div>
+        <div class="content-video" style="margin-bottom: 40px">
+          <h3 style="font-weight: bolder; font-size: 22px;">Trained with 3 Views</h3>
+          <div class="content-video-container">
+            <div class="content-video-frame">
+              <span>Building#1</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/000.mp4" type="video/mp4">
+              </video>
+            </div>
+  
+  
+            <div class="content-video-frame">
+              <span>Church</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/001.mp4" type="video/mp4">
+              </video>
+            </div>
+  
+            <div class="content-video-frame">
+              <span>College</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/002.mp4" type="video/mp4">
+              </video>
+            </div>
+  
+            <div class="content-video-frame">
+              <span>Mountain#1</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/003.mp4" type="video/mp4">
+              </video>
+            </div>
+  
+            <div class="content-video-frame">
+              <span>Mountain#2</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/004.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="content-video-frame">
+              <span>Observation</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/005.mp4" type="video/mp4">
+              </video>
+            </div>
+  
+            <div class="content-video-frame">
+              <span>Building#2</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/006.mp4" type="video/mp4">
+              </video>
+            </div>
+
+            <div class="content-video-frame">
+              <span>Town#1</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/007.mp4" type="video/mp4">
+              </video>
+            </div>
+
+	    <div class="content-video-frame">
+              <span>Stadium</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/008.mp4" type="video/mp4">
+              </video>
+            </div>
+		  
+
+	    <div class="content-video-frame">
+              <span>Town#2</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/009.mp4" type="video/mp4">
+              </video>
+            </div>
+		  
+
+	    <div class="content-video-frame">
+              <span>Mountain#3</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/010.mp4" type="video/mp4">
+              </video>
+            </div>
+		  
+	    <div class="content-video-frame">
+              <span>Town#3</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/011.mp4" type="video/mp4">
+              </video>
+            </div>
+		  
+	    <div class="content-video-frame">
+              <span>Factory</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/012.mp4" type="video/mp4">
+              </video>
+            </div>
+		  
+	    <div class="content-video-frame">
+              <span>Park</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/013.mp4" type="video/mp4">
+              </video>
+            </div>
+		  
+  	    <div class="content-video-frame">
+              <span>School</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/014.mp4" type="video/mp4">
+              </video>
+            </div>
+		  
+	    <div class="content-video-frame">
+              <span>Downtown</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="LEVIR-NVS-3/015.mp4" type="video/mp4">
+              </video>
+            </div>		  
+          </div>
+        </div>
+
+<!--       <div style="text-align: center; margin-top: 10px; margin-bottom:20px">
+        <button id="showMoreBtn" style="width: 130px; height: 35px; border-radius: 20px; background-color: #1e1c1c; color: #fff; font-size: 17px; border: none; cursor: pointer;">
+          More Results
+        </button>
+        </div>
+                <div class="content-video hidden-row hidden-row-group1" style="margin-bottom: 40px">
+          <div class="content-video-container">
+          <h3 style="font-weight: bolder; font-size: 22px;">Trained with 6 Views</h3>
+            <div class="content-video-frame">
+              <span>fern</span>
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
+                <source src="video/fern6w.mp4" type="video/mp4">
+              </video>
+            </div> -->
+
+
+      <script>
+        // 获取第一个按钮和它控制的视频容器
+const showMoreBtn1 = document.getElementById('showMoreBtn');
+const hiddenRowContainersGroup1 = document.querySelectorAll('.hidden-row-group1');
+
+// 设置第一组的初始状态为隐藏
+hiddenRowContainersGroup1.forEach(function(container) {
+  container.style.display = 'none';
+});
+
+// 第一个按钮的点击事件
+showMoreBtn1.addEventListener('click', function() {
+  hiddenRowContainersGroup1.forEach(function(container) {
+    if (container.style.display === 'none') {
+      container.style.display = 'block';
+      showMoreBtn1.textContent = 'Hide';
+    } else {
+      container.style.display = 'none';
+      showMoreBtn1.textContent = 'More Results';
+    }
+  });
+});
+      </script> 
+
+
+
+      <script>
+const showMoreBtn2 = document.getElementById('showMoreBtn2');
+const hiddenRowContainersGroup2 = document.querySelectorAll('.hidden-row-group2');
+
+hiddenRowContainersGroup2.forEach(function(container) {
+  container.style.display = 'none';
+});
+
+showMoreBtn2.addEventListener('click', function() {
+  hiddenRowContainersGroup2.forEach(function(container) {
+    if (container.style.display === 'none') {
+      container.style.display = 'block';
+      showMoreBtn2.textContent = 'Hide';
+    } else {
+      container.style.display = 'none';
+      showMoreBtn2.textContent = 'More Results';
+    }
+  });
+});
+      </script>
+    </div>
+
+        </div>
+  
+
+</div>
+
+
+<div class="hr"></div>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content" >
+    <h2 style="color: #000080;;font-size: 35px;">Citation</h2>
+    <pre style="font-size: 20px" style="background-color: gray"><code>@misc{kang2024TriDF,
+    title={TriDF: Efficient Hybrid 3D Representation for Few-Shot Remote Sensing Novel View Synthesis},
+    author={Jiaming Kang and Zhengxia Zou and Zhenwei Shi},
+    year={2024},
+    eprint={2408.xxxxx},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}</code></pre>
+  </div>
+</section>
+
+<footer>
+  Website borrowed from  <a rel="license" href="https://zehaozhu.github.io/FSGS/">FSGS</a>
+  
+<!--<a href="https://kanehub.github.io/TriDF/#top" class="bold">To top ↑</a>-->
+</footer>
+
+<!--<div class="columns is-centered">-->
+<!--      <div class="column is-8">-->
+<!--        <div class="content">-->
+<!--          <p>-->
+<!--            This website is licensed under a <a rel="license"-->
+<!--                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative-->
+<!--            Commons Attribution-ShareAlike 4.0 International License</a>.-->
+<!--          </p>-->
+<!--          <p>-->
+<!--            This means you are free to borrow the <a-->
+<!--              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,-->
+<!--            we just ask that you link back to this page in the footer.-->
+<!--            Please remember to remove the analytics code included in the header of the website which-->
+<!--            you do not want on your website.-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<script src="chrome-extension://klbdahhocigoaoaanhoghblieoadfgcj/scripts/start.js"></script></body></html>
