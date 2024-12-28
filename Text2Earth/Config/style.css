@@ -22,7 +22,7 @@ sub, sup {line-height: 0;}
 .content-video-container {width: 100%; max-width: 1300px; margin: auto}
 .content-video-frame {display: inline-block; width: 24.5%; text-align: center;}
 .content-video-frame.medium {width: 30%;}
-.content-video-frame.large {width: 60%;}
+.content-video-frame.large {width: 56%;}
 .content-video-frame.huge {width: 76%;}
 .content-video-frame span {display: inline-block; margin-bottom: 12px; font-weight: bold; font-size: 1.2em;}
 .hidden-content {display: none; background-color: #f3f3f6; border: 0; border-radius: 12px; margin-top: -18px; margin-bottom: 32px; padding-top: 50px; padding-bottom: 32px;}
