@@ -30,6 +30,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0d682c29-b5b9-4e74-b2d8-b72c97cc2b82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text2Earth/LEVIR-NVS-3/000.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Text2Earth/video/000.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text2Earth/LEVIR-NVS-3/empty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Text2Earth/video/empty.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text2Earth/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Text2Earth/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +45,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2LrxJ7uahs8eEvxhIcsDQsrxhoi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -94,6 +97,7 @@
       <workItem from="1698395920280" duration="681000" />
       <workItem from="1698402920231" duration="274000" />
       <workItem from="1726838450429" duration="227000" />
+      <workItem from="1735303036442" duration="2512000" />
     </task>
     <task id="LOCAL-00003" summary="02/18 Init">
       <created>1676688450981</created>
