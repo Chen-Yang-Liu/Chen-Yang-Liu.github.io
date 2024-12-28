@@ -19,7 +19,7 @@ sub, sup {line-height: 0;}
 .youtube-container {background-color: #000; margin-top: 32px;}
 .youtube {display: block; margin: auto; width: 960px; padding-top: 20px; padding-bottom: 20px;}
 .content-video {width: 100%; margin: 0; text-align: center;}
-.content-video-container {width: 100%; max-width: 1300px; margin: auto}
+.content-video-container {width: 100%; max-width: 3000px; margin: auto}
 .content-video-frame {display: inline-block; width: 24.5%; text-align: center;}
 .content-video-frame.medium {width: 30%;}
 .content-video-frame.large {width: 46%;}
