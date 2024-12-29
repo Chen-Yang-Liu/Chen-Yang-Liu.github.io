@@ -30,7 +30,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d682c29-b5b9-4e74-b2d8-b72c97cc2b82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/includes/pub.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/includes/pub.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text2Earth/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Text2Earth/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <workItem from="1698395920280" duration="681000" />
       <workItem from="1698402920231" duration="274000" />
       <workItem from="1726838450429" duration="227000" />
-      <workItem from="1735303036442" duration="9625000" />
+      <workItem from="1735303036442" duration="10479000" />
     </task>
     <task id="LOCAL-00003" summary="02/18 Init">
       <created>1676688450981</created>
