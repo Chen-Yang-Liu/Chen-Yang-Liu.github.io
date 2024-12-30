@@ -22,7 +22,7 @@
         <source src="video/Text2Earth.mp4" type="video/mp4">
       </video>
     </div>
-
+    <div class="header" id="top">
     <div class="content-video" style="margin-bottom: 40px">
       <div class="content-video-container">
         <div class="content-video-frame.large">
@@ -40,10 +40,10 @@
         <td>
           <h4>
             <span class="authors">
-            <a href="https://chen-yang-liu.github.io/" style="color: #000080;;font-weight: bold; ">Chenyang Liu</a> &nbsp;
-            <a href="https://kyanchen.github.io" style="color: #000080;;font-weight: bold; ">Keyan Chen</a> &nbsp;
-            <a href="https://ruizhaocv.github.io/" style="color: #000080;;font-weight: bold; ">Rui Zhao</a> &nbsp;
-            <a href="https://zhengxiazou.github.io/" style="color: #000080;;font-weight: bold;">Zhengxia Zou</a> &nbsp;
+            <a href="https://chen-yang-liu.github.io/" style="color: #000080;;font-weight: bold; ">Chenyang Liu,</a> &nbsp;
+            <a href="https://kyanchen.github.io" style="color: #000080;;font-weight: bold; ">Keyan Chen,</a> &nbsp;
+            <a href="https://ruizhaocv.github.io/" style="color: #000080;;font-weight: bold; ">Rui Zhao,</a> &nbsp;
+            <a href="https://zhengxiazou.github.io/" style="color: #000080;;font-weight: bold;">Zhengxia Zou,</a> &nbsp;
             <a href="https://shi.buaa.edu.cn/Levir/zh_CN/index/3114/list/index.htm" style="color: #000080;;font-weight: bold;">Zhenwei Shi</a> &nbsp;
 
           </span>
@@ -85,164 +85,133 @@
 		<h2 style="color: #000080;;font-size: 35px">Overview</h2>
       <div class="figure-caption" style="width: 70%">
 			<p style="font-size: 17px;">
-				Novel view synthesis (NVS) in remote sensing holds tremendous potential, which facilitates 3D interpretation of remote sensing scenes and
-				plays a significant role in urban planning and environmental monitoring. However, due to constraints in image acquisition, remote sensing scenes often 
-				suffer from insufficient multi-view images. Existing novel view synthesis algorithms tend to overfit the input views when facing such challenges, 
-				while advanced few-shot methods are time-consuming and perform poorly in remote sensing scenes. In this paper, we propose TriDF, 
-				an efficient hybrid representation combining tri-plane and density field for few-shot remote sensing novel view synthesis. 
-				We use explicit tri-plane representations to model the color information of spatial points, accelerating convergence through direct optimization of feature planes. 
-				Simultaneously, we model volume density as a continuous density field and integrate reference features from neighboring views using the image-based 
-				rendering framework to compensate for limited input information. Additionally, we introduce depth-guided optimization based on point clouds,
-				which effectively mitigates the overfitting problem in few-shot NVS. 
-				Experiments demonstrate that the proposed TriDF outperforms state-of-the-art novel view synthesis methods and achieves high-quality reconstructions within 5 minutes.
+				Generative foundation models have significantly advanced large-scale text-driven natural image generation and have become a prominent research trend across various vertical domains. However, in the remote sensing field, there is still a lack of research on large-scale text-to-image (text2image) generation technology. Existing remote sensing image-text datasets are small in scale and confined to specific geographic areas and scene types. Besides, existing text2image methods have struggled to achieve global-scale, multi-resolution controllable, and unbounded image generation. To address these challenges, this paper presents two key contributions: the Git-10M dataset and the Text2Earth foundation model. Git-10M is a global-scale image-text dataset comprising 10 million image-text pairs, 5 times larger than the previous largest dataset. The dataset contains essential resolution information and covers a wide range of geographic scenes, significantly surpassing existing datasets in both size and diversity. Building on Git-10M, we propose Text2Earth, a 1.3 billion parameter generative foundation model based on the diffusion framework to model global-scale remote sensing scenes. Text2Earth integrates a resolution control mechanism, enabling users to specify image resolutions. A dynamic condition adaptation strategy is proposed for training and inference to improve image generation quality.
+				Text2Earth not only excels in resolution-controllable text2image generation but also demonstrates robust generalization and flexibility across multiple tasks, including unbounded scene construction, image editing, and cross-modal image generation. This robust capability significantly surpasses previous models that were restricted to the basic fixed-size text2image generation with limited scene types. On the previous text2image benchmark dataset, Text2Earth surpasses the previous models with a significant improvement of +26.23 FID and +20.95% Zero-shot OA metric.
             </p>
 		</div>
       <div class="content-video" style="display: flex; justify-content: center; align-items: center;">
 
 
-<!--        <div class="publication-video">-->
-<!--             <iframe width="1120" height="630" src="https://www.youtube.com/embed/CarJgsx3DQY?si=d3TZzzP_43BT7Pnx"
-              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-           encrypted-media; " allowfullscreen></iframe> -->
-<!--          </div>-->
 	</div>
 
   	</div><div class="hr"></div>
 	<div>
-		<h2 style="color: #000080;;font-size: 35px;">Method</h2>
+		<h2 style="color: #000080;;font-size: 35px;">Git-10M: Global-Scale Image-Text Dataset</h2>
 		<div class="figure-caption" style="width: 70%">
 			<p style="font-size: 17px;">
-<!--				<span style="font-weight: bolder; color: #000080;">TriDF</span> encompasses several crucial designs:</li>-->
-<!--              <ol type="1">-->
-<!--                <li> We adopt a pre-trained LM (<i>i.e.</i> GPT-2) as the initialization of a Decision Transformer (DT);</li>-->
-<!--                <li> We replace the linear embedding projections with MLPs to augment representation learning capabilities for complicated tasks;</li>-->
-<!--                <li> During training the offline RL agents, we freeze the pre-trained parts and utilize the parameter-efficient fine-tuning technique LoRA, where the trainable parameters account for only <span style="font-weight: bolder; color: #000080;">0.7%</span> of the entire model;</li>-->
-<!--                <li> We introduce language prediction as an auxiliary objective while finetuning, in order to stabilize the performance and maintain the language ability.</li>-->
-<!--              </ol>-->
-<!--               <span style="font-weight: bolder; color: #000080;">TriDF</span> are initialized from SfM, with a few images
-              (<span style="font-weight: bolder; color: black;">black cameras</span>). For the sparsely placed Gaussians, we propose densifying new Gaussians to enhance scene coverage by unpooling existing Gaussians into new ones, with properly initialized Gaussian attributes. Monocular depth priors, enhanced by sampling unobserved views
-              (<span style="font-weight: bolder; color: red;">red cameras</span>), guide the optimization of grown Gaussians towards a reasonable geometry. The final loss consists of a photometric loss term, and a geometric regularization term calculated as depth correlation. -->
-			We propose a hybrid 3D representation called TriDF, which utilizes explicit tri-plane representations and implicit density fields for efficient novel view synthesis in remote sensing scenes. 
-				Specifically, we explore the potential of tri-plane representations in few-shot rendering by discretizing the scene space into three mutually orthogonal feature planes, 
-				which provide a compact representation of color information with high-frequency components. 
-				This accelerates model convergence since the explicit feature planes can be directly optimized. 
-				Meanwhile, we model the scene geometry as the continuous density field and combine it with an image-based rendering framework that aggregates reference features from neighboring views to compensate for the lack of input scene information. 
-				Unlike traditional NeRF methods, we model the volume density separately to accelerate convergence as it exhibits spatial continuity and has a simpler distribution. 
-				Additionally, we propose a depth-guided optimization method based on 3D point clouds to address overfitting in few-shot rendering. We obtain coarse 3D point clouds through SfM and Patchmatch stereo and use sparse depth supervision to guide the model in reconstructing the correct scene geometry. 
-				This achieves stable optimization with minimal overhead.
+                The Git-10M dataset is a global-scale remote sensing image-text pair dataset, consisting of <span style="font-weight: bolder; color: #000080;">10 million</span> image-text pairs with geographical locations and resolution information.
 			</p>
 		</div>
 	</div>
         <div style="text-align: center;">
-          <figure style="display: inline-block; max-width: 65%;">
-            <img src="Assets/Method.png" alt="Pipeline Image" style="max-width: 100%;">
+          <figure style="display: inline-block; max-width: 50%;">
+            <img src="Assets/dataset.png" alt="Pipeline Image" style="max-width: 100%;">
+<!--            <figcaption>The workflow of <span style="color: rgb(128, 185, 90); font-weight: bolder;">Uni-O4</span> online-offline-online fine-tuning framework on real-world robots. </figcaption>-->
+          </figure>
+        </div>
+        <div style="text-align: center;">
+          <figure style="display: inline-block; max-width: 50%;">
+            <img src="Assets/text_3.png" alt="Pipeline Image" style="max-width: 100%;">
 <!--            <figcaption>The workflow of <span style="color: rgb(128, 185, 90); font-weight: bolder;">Uni-O4</span> online-offline-online fine-tuning framework on real-world robots. </figcaption>-->
           </figure>
         </div>
 
 
-
 	<div class="hr"></div>
 	<div>
-		<h2 style="color: #000080;;font-size: 35px;">Baseline Comparisons</h2>
+		<h2 style="color: #000080;;font-size: 35px;">Text2Earth Foundation Model</h2>
 		<div class="figure-caption" style="width: 70%">
 			<p>
-			The quantitative experiments on <span style="font-weight: bolder; color: #000080;">LEVIR-NVS</span> dataset show that our approach 
-				demonstrates superior performance across all three evaluation metrics compared with both different scene representation forms and state-of-the-art few-shot NeRF methods.
-<!--               We demonstrates the visual improvement of <span style="font-weight: bolder; color: #000080;">TriDF</span> compared with FreeNeRF and SparseNeRF in both the forward-scene and 360 degree dataset.
-              We can observe that NeRF-based methods generate floaters and lead to aliasing results due to limited observation
-              Our proposed <span style="font-weight: bolder; color: #000080;">TriDF</span> enforces more consistent and solid surfaces with geometric coherence. -->
-			</p>
-		</div>
-		
-<!--         <div class="content-video" style="margin-bottom: 40px">
-
-
-          <div class="content-video-container" >
-            <div class="content-video-frame" >
-              <span>FreeNeRF</span>
-              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
-                <source src="comparison2/horns_free.mp4" type="video/mp4">
-              </video>
-            </div>
-
-
-            <div class="content-video-frame" >
-              <span>SparseNeRF</span>
-              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
-                <source src="comparison2/horns_sparse.mp4" type="video/mp4">
-              </video>
-            </div>
-
-
-            <div class="content-video-frame" >
-              <span>3D-GS</span>
-              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
-                <source src="comparison2/horns_3dgs.mp4" type="video/mp4">
-              </video>
-            </div>
-
-            <div class="content-video-frame" >
-             <span style="font-weight: bolder; color: #000080;">TriDF</span>
-              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">
-                <source src="video/horns3w.mp4" type="video/mp4">
-              </video>
-            </div>
-
-            
-
-          </div> -->
-        </div>
-	<div style="text-align: center;">
-          <figure style="display: inline-block; max-width: 75%;">
-            <img src="Assets/result.png" alt="Quantitive result" style="max-width: 100%;">
-          </figure>
-    </div>
-
-	<div class="figure-caption" style="width: 70%">
-			<p>
-			<span style="font-weight: bolder; color: #000080;">TriDF</span> successfully avoids the typical degradation problem observed in 
-				few-shot rendering and achieves superior rendering quality, which accurately recovers the delicate geometry of the scenes. 
-				Our approach achieves a more accurate reconstruction of scene details, 
-				such as the edges and corners of buildings, and synthesizes novel view images with higher fidelity.
-			</p>
-	</div>
-	<div style="text-align: center;">
-          <figure style="display: inline-block; max-width: 75%;">
-            <img src="Assets/vis_result.png" alt="Qualitive result" style="max-width: 100%;">
-          </figure>
-        </div>
-
-    </div>
-
-
-	<div class="hr"></div>
-	<div>
-		<h2 style="color: #000080;;font-size: 35px;">Visualizations</h2>
-		<div class="figure-caption" style="width: 70%">
-			<p>
-				On LEVIR-NVS dataset, we visualize results from <span style="font-weight: bolder; color: #000080;">16</span> different scenes trained with <span style="font-weight: bolder; color: #000080;">3</span> views repectively.
-			    <span style="color: #000080;;font-weight: bolder;">TriDF</span> produces pleasing appearances while demonstrating detailed thin structures.
+				Building on the Git-10M dataset, we developed <span style="font-weight: bolder; color: #000080;">Text2Earth, a 1.3 billion parameter generative foundation model</span>. Text2Earth excels in resolution-controllable text2image generation and demonstrates robust generalization and flexibility across multiple tasks.
             </p>
 		</div>
         <div class="content-video" style="margin-bottom: 40px">
-          <h3 style="font-weight: bolder; font-size: 22px;">Trained with 3 Views</h3>
+          <h3 style="font-weight: bolder; font-size: 22px;">Zero-Shot text2image generation</h3>
+            <div class="figure-caption" style="width: 70%">
+			<p>
+				Text2Earth can generate specific image content based on <span style="font-weight: bolder; color: #000080;">user-free text input</span>, without scene-specific fine-tuning or retraining.
+            </p>
+            </div>
+              <div class="content-video-container">
+                <div class="content-video-frame.large">
+                  <video playsinline="" autoplay="" loop="" preload="" muted="" width="50%">
+                    <source src="video/result.mp4" type="video/mp4">
+                  </video>
+                </div>
+                </div>
+
+
+            <div class="figure-caption" style="width: 70%">
+            <p>
+            On the previous benchmark dataset RSICD, Text2Earth surpasses the previous models with a significant improvement of <span style="font-weight: bolder; color: #000080;">+26.23 FID and +20.95% Zero-shot OA metric</span>.
+            </p>
+            </div>
+            <div style="text-align: center;">
+                  <figure style="display: inline-block; max-width: 50%;">
+                    <img src="Assets/RSICD_result.png" alt="RSICD_result" style="max-width: 60%;">
+                  </figure>
+                </div>
+
+        <h3 style="font-weight: bolder; font-size: 22px;">Unbounded Remote Sensing Scene Construction</h3>
+        <div class="figure-caption" style="width: 70%">
+        <p>
+            Using our Text2Earth, users can <span style="font-weight: bolder; color: #000080;">seamlessly and infinitely</span> generate remote sensing images on a canvas, effectively overcoming the fixed-size limitations of traditional generative models.
+            Text2Earth’s <span style="font-weight: bolder; color: #000080;">resolution controllability</span> is the key to maintaining visual coherence across the generated scene during the expansion process.
+        </p>
+        </div>
           <div class="content-video-container">
             <div class="content-video-frame.large">
-              <span>Building#1</span>
-              <video playsinline="" autoplay="" loop="" preload="" muted="" width="60%">
-                <source src="video/result.mp4" type="video/mp4">
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="70%">
+                <source src="video/unbound_1.mp4" type="video/mp4">
               </video>
             </div>
-  
-  
-<!--            <div class="content-video-frame">-->
-<!--              <span>Church</span>-->
-<!--              <video playsinline="" autoplay="" loop="" preload="" muted="" width="100%">-->
-<!--                <source src="video/001.mp4" type="video/mp4">-->
-<!--              </video>-->
-<!--            </div>-->
-        </div>
+            </div>
+            <div class="content-video-container">
+            <div class="content-video-frame.large">
+              <video playsinline="" autoplay="" loop="" preload="" muted="" width="70%">
+                <source src="video/unbound_farmland.mp4" type="video/mp4">
+              </video>
+            </div>
+            </div>
+
+
+        <h3 style="font-weight: bolder; font-size: 22px;">Remote Sensing Image Editing</h3>
+        <div class="figure-caption" style="width: 70%">
+            <p>
+             Text2Earth can perform <span style="font-weight: bolder; color: #000080;">scene modifications</span> based on user-provided text such as replacing or removing geographic features. And it ensures that these modifications are seamlessly integrated with the surrounding areas, maintaining continuity and coherence.
+            </p>
+            </div>
+            <div style="text-align: center;">
+                  <figure style="display: inline-block; max-width: 50%;">
+                    <img src="Assets/edit.png" alt="edit" style="max-width: 90%;">
+                  </figure>
+                </div>
+
+        <h3 style="font-weight: bolder; font-size: 22px;">Cross-Modal Image Generation</h3>
+            <div class="figure-caption" style="width: 70%">
+            <p>
+            Text2Earth can be used for <span style="font-weight: bolder; color: #000080;">Text-Driven Multi-modal Image Generation</span>, including RGB, SAR, NIR, and PAN images.
+            </p>
+            </div>
+            <div style="text-align: center;">
+                  <figure style="display: inline-block; max-width: 50%;">
+                    <img src="Assets/text2multi-modal.png" alt="text2multi_modal" style="max-width: 90%;">
+                  </figure>
+                </div>
+
+
+            <div class="figure-caption" style="width: 70%">
+            <p>
+            Text2Earth also exhibits potential in <span style="font-weight: bolder; color: #000080;">Image-to-Image Translation</span>, containing cross-modal translation and image enhancement, such as PAN to RGB (PAN2RGB), NIR to RGB (NIR2RGB), PAN to NIR (PAN2NIR), super-resolution, and image dehazing.
+            </p>
+            </div>
+            <div style="text-align: center;">
+                  <figure style="display: inline-block; max-width: 50%;">
+                    <img src="Assets/cross_transf.png" alt="cross_transf" style="max-width: 90%;">
+                  </figure>
+                </div>
+
+    </div>
 
 <!--       <div style="text-align: center; margin-top: 10px; margin-bottom:20px">
         <button id="showMoreBtn" style="width: 130px; height: 35px; border-radius: 20px; background-color: #1e1c1c; color: #fff; font-size: 17px; border: none; cursor: pointer;">
@@ -320,12 +289,12 @@ showMoreBtn2.addEventListener('click', function() {
   <div class="container is-max-desktop content" >
     <h2 style="color: #000080;;font-size: 35px;">Citation</h2>
     <pre style="font-size: 20px" style="background-color: gray"><code>@misc{kang2024TriDF,
-    title={TriDF: Efficient Hybrid 3D Representation for Few-Shot Remote Sensing Novel View Synthesis},
-    author={Jiaming Kang and Zhengxia Zou and Zhenwei Shi},
-    year={2024},
-    eprint={2408.xxxxx},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+    title={Text2Earth: Unlocking Text-driven Remote Sensing Image Generation with a Global-Scale Dataset and a Foundation Model},
+    author={Chenyang Liu, Keyan Chen, Rui Zhao, Zhengxia Zou, and Zhenwei Shi},
+<!--    year={2024},-->
+<!--    eprint={2408.xxxxx},-->
+<!--    archivePrefix={arXiv},-->
+<!--    primaryClass={cs.CV}-->
 }</code></pre>
   </div>
 </section>
