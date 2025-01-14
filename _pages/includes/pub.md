@@ -2,6 +2,18 @@
 # 📝 Publications 
 My full paper list can be found at <a href='https://scholar.google.com/citations?user=jBnA45cAAAAJ'><img src="https://img.shields.io/badge/Google%20Scholar-orange"></a>.
 Some selected papers:
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="Text2Earth/video/Text2Earth_v2.mp4"><img src='Text2Earth/video/Text2Earth_v2.mp4' alt="Text2Earth" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a class=PaperTitle href="https://arxiv.org/abs/2501.00895"><b>Text2Earth: Unlocking Text-driven Remote Sensing Image Generation with a Global-Scale Dataset and a Foundation Model</b></a> \\
+ *Arxiv, 2025* \\
+**<font color="#C00000">Chenyang Liu</font>**, Keyan Chen, Rui Zhao, Zhengxia Zou, and Zhenwei Shi \\
+[<a href="https://chen-yang-liu.github.io/Text2Earth/">Project Page</a>] [<a href="https://github.com/chen-yang-liu/Text2Earth">Code</a>] [<a href="https://arxiv.org/abs/2501.00895">PDF</a>] [<a href="https://youtu.be/Rw9wzUpO01M">Video</a>]  \\
+Media report: [<a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">把整个地球装进神经网络，北航团队推出全球遥感图像生成模型</a>] -- <a href="https://www.nsfc.gov.cn/publish/portal0/tab448/info92986.htm">国家自然科学基金委</a> | <a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">量子位</a> | <a href="https://mp.weixin.qq.com/s/JrFUIR2rLxJFMst7JXL3Mw">中国图象图形学学会CSIG</a> | <a href="https://mp.weixin.qq.com/s/Dn51xNhfM6e5JKO2XWq6ag">CVer</a> | <a href="https://mp.weixin.qq.com/s/K-SrPA5vRUiuXUN3ZxOALA">惠天地</a> | <a href="https://mp.weixin.qq.com/s/XnkyDefw7SpZmySdaIczag">深圳市人工智能产业协会</a>
+
+</div>
+</div>
                                                                                                    
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/RSVLM.png"><img src='images/RSVLM.png' alt="RSVLM" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -19,7 +31,7 @@ Some selected papers:
 
 <a class=PaperTitle href="https://arxiv.org/abs/2405.13570"><b>MetaEarth: A Generative Foundation Model for Global-Scale Remote Sensing Image Generation</b></a> \\
  *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)* \\
-Zhiping Yu, **<font color="#C00000">Chenyang Liu</font>**, Liqin Liu, Zhenwei Shi, Zhengxia Zou \\
+Zhiping Yu, **<font color="#C00000">Chenyang Liu</font>**, Liqin Liu, Zhenwei Shi, and Zhengxia Zou \\
 [<a href="https://arxiv.org/abs/2405.13570">PDF</a>] [<a href="https://jiupinjia.github.io/metaearth/">Project</a>]\\
 Media report: [<a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">把整个地球装进神经网络，北航团队推出全球遥感图像生成模型</a>] -- <a href="https://www.nsfc.gov.cn/publish/portal0/tab448/info92986.htm">国家自然科学基金委</a> | <a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">量子位</a> | <a href="https://mp.weixin.qq.com/s/JrFUIR2rLxJFMst7JXL3Mw">中国图象图形学学会CSIG</a> | <a href="https://mp.weixin.qq.com/s/Dn51xNhfM6e5JKO2XWq6ag">CVer</a> | <a href="https://mp.weixin.qq.com/s/K-SrPA5vRUiuXUN3ZxOALA">惠天地</a> | <a href="https://mp.weixin.qq.com/s/XnkyDefw7SpZmySdaIczag">深圳市人工智能产业协会</a>
 
