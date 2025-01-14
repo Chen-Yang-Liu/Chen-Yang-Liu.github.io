@@ -3,7 +3,7 @@
 My full paper list can be found at <a href='https://scholar.google.com/citations?user=jBnA45cAAAAJ'><img src="https://img.shields.io/badge/Google%20Scholar-orange"></a>.
 Some selected papers:
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="Text2Earth/video/Text2Earth_v2.mp4"><img src='Text2Earth/video/Text2Earth_v2.mp4' alt="Text2Earth" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Text2Earth_v2.gif"><img src='images/Text2Earth_v2.gif' alt="Text2Earth" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://arxiv.org/abs/2501.00895"><b>Text2Earth: Unlocking Text-driven Remote Sensing Image Generation with a Global-Scale Dataset and a Foundation Model</b></a> \\
