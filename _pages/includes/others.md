@@ -13,10 +13,12 @@ Reviewer:
 - International Journal of Applied Earth Observation and Geoinformation
 - IEEE Transactions on Artificial Intelligence (TAI)
 - Neurocomputing
+- Neural Networks
 - Science of Remote Sensing
 - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)
 - Remote Sensing
 - International Journal of Digital Earth (IJDE)
+- Infrared Physics and Technology
 - Multimedia Systems
 - International Journal of Machine Learning and Cybernetics
 - Journal of Supercomputing
