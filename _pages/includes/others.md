@@ -1,5 +1,6 @@
 # 📖 Educations
-- *2021.09 - Present*, Ph.D. in Pattern Recognition and Intelligent System, Beihang University, China.
+- *2023.09 - Present*, Ph.D. in Pattern Recognition and Intelligent System, Beihang University, China.
+- *2021.09 - 2023.09*, M.S. in Pattern Recognition and Intelligent System, Beihang University, China.
 - *2017.09 - 2021.06*, B.S. in Image Processing Center, Beihang University, China.
 
 # 💬 Invited Talks
