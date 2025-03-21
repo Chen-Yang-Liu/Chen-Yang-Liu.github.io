@@ -8,6 +8,7 @@
 
 # 💻 Academic Service
 Reviewer:
+- IEEE Geoscience and Remote Sensing Magazine
 - IEEE Transactions on Image Processing (TIP)
 - ISPRS Journal of Photogrammetry and Remote Sensing
 - IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
