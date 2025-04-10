@@ -7,7 +7,7 @@ Some selected papers:
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://arxiv.org/abs/2501.00895"><b>Text2Earth: Unlocking Text-driven Remote Sensing Image Generation with a Global-Scale Dataset and a Foundation Model</b></a> \\
- *Arxiv, 2025* \\
+ *IEEE Geoscience and Remote Sensing Magazine, 2025* \\
 **<font color="#C00000">Chenyang Liu</font>**, Keyan Chen, Rui Zhao, Zhengxia Zou, and Zhenwei Shi \\
 [<a href="https://chen-yang-liu.github.io/Text2Earth/">Project Page</a>] [<a href="https://github.com/chen-yang-liu/Text2Earth">Code</a>] [<a href="https://arxiv.org/abs/2501.00895">PDF</a>] [<a href="https://youtu.be/Rw9wzUpO01M">Video</a>]  \\
 Media report: [<a href="https://mp.weixin.qq.com/s/Id42ape9RMcpL44C7pWgSQ">文绘千里江山！1000万图文数据集Git-10M和生成式基础模型Text2Earth</a>]
