@@ -15,6 +15,7 @@ Reviewer:
 - IEEE Transactions on Geoscience and Remote Sensing (TGRS)
 - Computers in Industry
 - International Journal of Applied Earth Observation and Geoinformation
+- Knowledge-Based Systems
 - IEEE Transactions on Artificial Intelligence (TAI)
 - Neurocomputing
 - Neural Networks
