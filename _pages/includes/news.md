@@ -1,6 +1,6 @@
 # 🔥 News
 - *2025.04*: One paper is accepted by ***<font color="red">IEEE GRSM</font> (IF=16.2)*** !
-- *2024.12* Funded by NSFC on Youth Basic Research Project (Ph.D. Student) 获得2024国家自然科学基金青年学生基础研究项目(博士研究生)资助.
+- *2024.12* Funded by NSFC on Youth Basic Research Project (Ph.D. Student) 获 ***<font color="red">国家自然科学基金青年学生基础研究项目(博士研究生)</font>*** 资助.
 - *2024.11*: One paper is accepted by ***<font color="red">IEEE TPAMI</font> (IF=20.8)*** !
 - *2024.07*: RSCaMa becomes a ***<font color="red">Popular Article</font>*** of IEEE GRSL !
 - *2024.07*: One paper is accepted by ***<font color="red">TGRS</font> (IF=8.2)*** !
