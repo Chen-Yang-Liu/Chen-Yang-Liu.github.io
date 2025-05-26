@@ -23,6 +23,7 @@ Reviewer:
 - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)
 - Remote Sensing
 - International Journal of Digital Earth (IJDE)
+- Computer Vision and Image Understanding
 - Infrared Physics and Technology
 - Multimedia Systems
 - International Journal of Machine Learning and Cybernetics
