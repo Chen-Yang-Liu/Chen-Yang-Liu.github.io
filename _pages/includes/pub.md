@@ -15,7 +15,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/Id42ape9RMcpL44C7pWgSQ">æ–‡ç»
 </div>
 </div>
                                                                                                    
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/RSVLM.png"><img src='images/RSVLM.png' alt="RSVLM" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/RS_STVLM.png"><img src='images/RSVLM.png' alt="RSVLM" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://arxiv.org/abs/2412.02573"><b>Remote Sensing Temporal Vision-Language Models: A Comprehensive Survey</b></a> \\
