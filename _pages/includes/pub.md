@@ -19,7 +19,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/Id42ape9RMcpL44C7pWgSQ">文�
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://arxiv.org/abs/2412.02573"><b>Remote Sensing Spatio-Temporal Vision-Language Models: A Comprehensive Survey</b></a> \\
- *Arxiv, 2024* \\
+ *Arxiv, 2025* \\
 **<font color="#C00000">Chenyang Liu</font>**, Jiafan Zhang, Keyan Chen, Man Wang, Zhengxia Zou, and Zhenwei Shi \\
 [<a href="https://arxiv.org/abs/2412.02573">PDF</a>] [<a href="https://github.com/Chen-Yang-Liu/Awesome-RS-SpatioTemporal-VLM">Project</a>]
 Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">最新综述 | 北航新作: 首篇遥感时空视觉语言模型综述, 附Github资源合集</a>]
