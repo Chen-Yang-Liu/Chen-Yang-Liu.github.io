@@ -29,6 +29,7 @@ Reviewer:
 - International Journal of Machine Learning and Cybernetics
 - Journal of Supercomputing
 - Applied Geomatics
+- Remote Sensing Letters
 - ...
 
 
