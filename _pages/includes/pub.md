@@ -58,7 +58,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/FENxlWZqWERS7fFWLwWwTA">Chang
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://ieeexplore.ieee.org/document/10537177"><b>RSCaMa: Remote Sensing Image Change Captioning with State Space Model</b></a> \\
- *IEEE Geoscience and Remote Sensing Letters (GRSL), 2024* \\
+ *IEEE Geoscience and Remote Sensing Letters (GRSL), 2024* 🏆️**ESI Highly Cited Paper**\\
 **<font color="#C00000">Chenyang Liu</font>**, Keyan Chen, Bowen Chen, Haotian Zhang, Zhengxia Zou, Zhenwei Shi \\
 [<a href="https://ieeexplore.ieee.org/document/10537177">PDF</a>] [<a href="https://github.com/Chen-Yang-Liu/RSCaMa">Code</a>] \\
 Media report: [<a href="https://mp.weixin.qq.com/s/EznAxqSw3eBh68IbP-_P9w">RSCaMa：将Mamba用于遥感变化描述任务中，充分利用状态空间模型的特征选择性建模能力！</a>] -- <a href="https://mp.weixin.qq.com/s/EznAxqSw3eBh68IbP-_P9w">GISer阿兴</a> | <a href="https://mp.weixin.qq.com/s/FENxlWZqWERS7fFWLwWwTA">CV看交通</a>
