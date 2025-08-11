@@ -2,6 +2,19 @@
 # 📝 Publications 
 My full paper list can be found at <a href='https://scholar.google.com/citations?user=jBnA45cAAAAJ'><img src="https://img.shields.io/badge/Google%20Scholar-orange"></a>.
 Some selected papers:
+                                                                                                   
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/RS_STVLM.png"><img src='images/RS_STVLM.png' alt="RS_STVLM" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a class=PaperTitle href="https://arxiv.org/abs/2412.02573"><b>Remote Sensing Spatio-Temporal Vision-Language Models: A Comprehensive Survey</b></a> \\
+ *IEEE Geoscience and Remote Sensing Magazine, 2025* \\
+**<font color="#C00000">Chenyang Liu</font>**, Jiafan Zhang, Keyan Chen, Man Wang, Zhengxia Zou, and Zhenwei Shi \\
+[<a href="https://arxiv.org/abs/2412.02573">PDF</a>] [<a href="https://github.com/Chen-Yang-Liu/Awesome-RS-SpatioTemporal-VLM">Project</a>]
+Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">最新综述 | 北航新作: 首篇遥感时空视觉语言模型综述, 附Github资源合集</a>]
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Text2Earth_v2.gif"><img src='images/Text2Earth_v2.gif' alt="Text2Earth" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -11,18 +24,6 @@ Some selected papers:
 **<font color="#C00000">Chenyang Liu</font>**, Keyan Chen, Rui Zhao, Zhengxia Zou, and Zhenwei Shi \\
 [<a href="https://chen-yang-liu.github.io/Text2Earth/">Project Page</a>] [<a href="https://github.com/chen-yang-liu/Text2Earth">Code</a>] [<a href="https://arxiv.org/abs/2501.00895">PDF</a>] [<a href="https://youtu.be/Rw9wzUpO01M">Video</a>]  \\
 Media report: [<a href="https://mp.weixin.qq.com/s/Id42ape9RMcpL44C7pWgSQ">文绘千里江山！1000万图文数据集Git-10M和生成式基础模型Text2Earth</a>]
-
-</div>
-</div>
-                                                                                                   
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/RS_STVLM.png"><img src='images/RS_STVLM.png' alt="RS_STVLM" width="100%"></a></div></div>
-<div class='paper-box-text' markdown="1">
-
-<a class=PaperTitle href="https://arxiv.org/abs/2412.02573"><b>Remote Sensing Spatio-Temporal Vision-Language Models: A Comprehensive Survey</b></a> \\
- *Arxiv, 2025* \\
-**<font color="#C00000">Chenyang Liu</font>**, Jiafan Zhang, Keyan Chen, Man Wang, Zhengxia Zou, and Zhenwei Shi \\
-[<a href="https://arxiv.org/abs/2412.02573">PDF</a>] [<a href="https://github.com/Chen-Yang-Liu/Awesome-RS-SpatioTemporal-VLM">Project</a>]
-Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">最新综述 | 北航新作: 首篇遥感时空视觉语言模型综述, 附Github资源合集</a>]
 
 </div>
 </div>
