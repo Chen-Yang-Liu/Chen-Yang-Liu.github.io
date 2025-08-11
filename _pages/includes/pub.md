@@ -7,7 +7,7 @@ Some selected papers:
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://arxiv.org/abs/2412.02573"><b>Remote Sensing Spatio-Temporal Vision-Language Models: A Comprehensive Survey</b></a> \\
- *IEEE Geoscience and Remote Sensing Magazine, 2025* \\
+ *IEEE Geoscience and Remote Sensing Magazine (GRSM), 2025* \\
 **<font color="#C00000">Chenyang Liu</font>**, Jiafan Zhang, Keyan Chen, Man Wang, Zhengxia Zou, and Zhenwei Shi \\
 [<a href="https://arxiv.org/abs/2412.02573">PDF</a>] [<a href="https://github.com/Chen-Yang-Liu/Awesome-RS-SpatioTemporal-VLM">Project</a>]
 Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">最新综述 | 北航新作: 首篇遥感时空视觉语言模型综述, 附Github资源合集</a>]
@@ -20,7 +20,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">最�
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://arxiv.org/abs/2501.00895"><b>Text2Earth: Unlocking Text-driven Remote Sensing Image Generation with a Global-Scale Dataset and a Foundation Model</b></a> \\
- *IEEE Geoscience and Remote Sensing Magazine, 2025* \\
+ *IEEE Geoscience and Remote Sensing Magazine (GRSM), 2025* \\
 **<font color="#C00000">Chenyang Liu</font>**, Keyan Chen, Rui Zhao, Zhengxia Zou, and Zhenwei Shi \\
 [<a href="https://chen-yang-liu.github.io/Text2Earth/">Project Page</a>] [<a href="https://github.com/chen-yang-liu/Text2Earth">Code</a>] [<a href="https://arxiv.org/abs/2501.00895">PDF</a>] [<a href="https://youtu.be/Rw9wzUpO01M">Video</a>]  \\
 Media report: [<a href="https://mp.weixin.qq.com/s/Id42ape9RMcpL44C7pWgSQ">文绘千里江山！1000万图文数据集Git-10M和生成式基础模型Text2Earth</a>]
@@ -32,7 +32,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/Id42ape9RMcpL44C7pWgSQ">文�
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://arxiv.org/abs/2405.13570"><b>MetaEarth: A Generative Foundation Model for Global-Scale Remote Sensing Image Generation</b></a> \\
- *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)* \\
+ *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025* \\
 Zhiping Yu, **<font color="#C00000">Chenyang Liu</font>**, Liqin Liu, Zhenwei Shi, and Zhengxia Zou \\
 [<a href="https://arxiv.org/abs/2405.13570">PDF</a>] [<a href="https://jiupinjia.github.io/metaearth/">Project</a>]\\
 Media report: [<a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">把整个地球装进神经网络，北航团队推出全球遥感图像生成模型</a>] -- <a href="https://www.nsfc.gov.cn/publish/portal0/tab448/info92986.htm">国家自然科学基金委</a> | <a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">量子位</a> | <a href="https://mp.weixin.qq.com/s/JrFUIR2rLxJFMst7JXL3Mw">中国图象图形学学会CSIG</a> | <a href="https://mp.weixin.qq.com/s/Dn51xNhfM6e5JKO2XWq6ag">CVer</a> | <a href="https://mp.weixin.qq.com/s/K-SrPA5vRUiuXUN3ZxOALA">惠天地</a> | <a href="https://mp.weixin.qq.com/s/XnkyDefw7SpZmySdaIczag">深圳市人工智能产业协会</a>
