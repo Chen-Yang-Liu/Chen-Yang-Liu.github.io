@@ -12,6 +12,7 @@ Reviewer:
 - IEEE Transactions on Image Processing (TIP)
 - ISPRS Journal of Photogrammetry and Remote Sensing
 - IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
+- IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - IEEE Transactions on Geoscience and Remote Sensing (TGRS)
 - Computers in Industry
 - International Journal of Applied Earth Observation and Geoinformation
