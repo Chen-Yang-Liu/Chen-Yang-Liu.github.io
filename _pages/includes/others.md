@@ -26,6 +26,7 @@ Reviewer:
 - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)
 - IEEE Geoscience and Remote Sensing Letters (GRSL)
 - Remote Sensing
+- ISPRS Open Journal of Photogrammetry and Remote Sensing
 - International Journal of Digital Earth (IJDE)
 - Geocarto International
 - Computer Vision and Image Understanding
