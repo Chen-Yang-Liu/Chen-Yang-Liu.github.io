@@ -7,35 +7,47 @@
 - *2024.05*, "Remote Sensing Image Change Captioning", Beijing Foreign Studies University internal talk
 
 # 💻 Academic Service
-Reviewer:
-- IEEE Geoscience and Remote Sensing Magazine (GRSM)
-- IEEE Transactions on Image Processing (TIP)
-- ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS JPRS)
-- IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
-- IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
-- IEEE Transactions on Geoscience and Remote Sensing (TGRS)
-- Computers in Industry
-- International Journal of Applied Earth Observation and Geoinformation (JAG)
-- IEEE Transactions on Artificial Intelligence (TAI)
-- Pattern Recognition
-- Knowledge-Based Systems
-- Pattern Recognition Letters
-- Neurocomputing
-- Neural Networks
-- Science of Remote Sensing
-- IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)
-- IEEE Geoscience and Remote Sensing Letters (GRSL)
-- Remote Sensing
-- ISPRS Open Journal of Photogrammetry and Remote Sensing
-- International Journal of Digital Earth (IJDE)
-- Geocarto International
-- Computer Vision and Image Understanding
-- Infrared Physics and Technology
-- Multimedia Systems
-- International Journal of Machine Learning and Cybernetics
-- Journal of Supercomputing
-- Applied Geomatics
-- Remote Sensing Letters
-- ...
+## **Journal Reviewer**
 
+### IEEE
+- IEEE Geoscience and Remote Sensing Magazine (GRSM)  
+- IEEE Transactions on Image Processing (TIP)  
+- IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)  
+- IEEE Transactions on Neural Networks and Learning Systems (TNNLS)  
+- IEEE Transactions on Geoscience and Remote Sensing (TGRS)  
+- IEEE Transactions on Artificial Intelligence (TAI)  
+- IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)  
+- IEEE Geoscience and Remote Sensing Letters (GRSL)  
+
+### Elsevier
+- ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS JPRS)  
+- Information Fusion  
+- Computers in Industry
+- Pattern Recognition  
+- International Journal of Applied Earth Observation and Geoinformation (JAG)  
+- Knowledge-Based Systems  
+- Neurocomputing  
+- Neural Networks
+- Pattern Recognition Letters
+- Computer Vision and Image Understanding 
+- ISPRS Open Journal of Photogrammetry and Remote Sensing
+- Science of Remote Sensing  
+- Infrared Physics and Technology  
+
+### Springer
+- Multimedia Systems  
+- International Journal of Machine Learning and Cybernetics  
+- Journal of Supercomputing  
+- Applied Geomatics  
+
+### Taylor & Francis
+- International Journal of Digital Earth (IJDE)  
+- Geocarto International  
+- Remote Sensing Letters  
+
+### MDPI
+- Remote Sensing
+
+## **Conference Reviewer**
+- IGARSS  
 
