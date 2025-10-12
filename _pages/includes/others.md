@@ -41,7 +41,8 @@
 - Applied Geomatics  
 
 ### Taylor & Francis
-- International Journal of Digital Earth (IJDE)  
+- International Journal of Digital Earth (IJDE)
+- European Journal of Remote Sensing
 - Geocarto International  
 - Remote Sensing Letters  
 
