@@ -29,6 +29,7 @@
 - Neurocomputing  
 - Neural Networks
 - Pattern Recognition Letters
+- Image and Vision Computing
 - Computer Vision and Image Understanding 
 - ISPRS Open Journal of Photogrammetry and Remote Sensing
 - Science of Remote Sensing  
