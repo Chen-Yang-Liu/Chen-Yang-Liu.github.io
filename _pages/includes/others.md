@@ -28,11 +28,11 @@
 - Knowledge-Based Systems  
 - Neurocomputing  
 - Neural Networks
-- Pattern Recognition Letters
-- Image and Vision Computing
-- Computer Vision and Image Understanding 
-- ISPRS Open Journal of Photogrammetry and Remote Sensing
 - Science of Remote Sensing  
+- Image and Vision Computing
+- Computer Vision and Image Understanding
+- Pattern Recognition Letters
+- ISPRS Open Journal of Photogrammetry and Remote Sensing
 - Infrared Physics and Technology  
 
 ### Springer
