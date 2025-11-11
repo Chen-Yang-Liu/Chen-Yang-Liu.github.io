@@ -43,6 +43,7 @@
 
 ### Taylor & Francis
 - International Journal of Digital Earth (IJDE)
+- Geo-spatial Information Science
 - European Journal of Remote Sensing
 - Geocarto International  
 - Remote Sensing Letters  
