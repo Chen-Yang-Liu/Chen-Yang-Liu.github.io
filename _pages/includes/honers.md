@@ -1,6 +1,7 @@
 # 🏆 Selected Honors
+- *2025.12* China Association for Science and Technology (CAST) Young Scientific and Technological Talent Development Program (Ph.D. Student) 获***<font color="red">中国科协青年科技人才培育工程博士生专项计划</font>*** 资助.
 - *2025.10* "National Scholarship of Ph.D." (**<font color="#C00000">Top 1%</font>**) 博士生国家奖学金（第2次）.
-- *2024.12* Funded by NSFC on Youth Basic Research Project (Ph.D. Student) 获国家自然科学基金青年学生基础研究项目(博士研究生)资助.
+- *2024.12* Funded by NSFC on Youth Basic Research Project (Ph.D. Student) 获***<font color="red">国家自然科学基金青年学生基础研究项目(博士研究生)</font>*** 资助.
 - *2024.09* "National Scholarship of Ph.D." (**<font color="#C00000">Top 1%</font>**) 博士生国家奖学金（第1次）.
 - *2023.09* "Graduate Entrance Scholarship" of Beihang University
 - *2022.12* "Excellent graduate student" of Beihang University (**<font color="#C00000">Top 5%</font>**)
