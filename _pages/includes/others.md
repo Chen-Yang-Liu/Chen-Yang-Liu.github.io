@@ -4,7 +4,11 @@
 - *2017.09 - 2021.06*, B.S. in Image Processing Center, Beihang University, China.
 
 # 💬 Invited Talks
-- *2024.05*, "Remote Sensing Image Change Captioning", Beijing Foreign Studies University internal talk
+- *202509*, “遥感多模态大模型研究”，中国图象图形学报研究生学术沙龙(突出报告奖)
+- *202507*, “多时相遥感多模态大模型与智能体研究”，人工智能与遥感科学交叉论坛(优秀学生报告奖)
+- *202506*, “遥感多模态大模型研究”，北京航空航天大学前沿交叉创新论坛
+- *202407*, “基于伪标签学习的遥感图像变化描述算法研究”，IEEE国际地球科学与遥感大会(Oral)
+- *202405*, “遥感图像变化描述方法研究”，北京外国语大学信科院
 
 # 💻 Academic Service
 ## **Journal Reviewer**
