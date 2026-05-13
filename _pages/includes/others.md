@@ -24,7 +24,8 @@
 - IEEE Geoscience and Remote Sensing Letters (GRSL)  
 
 ### Elsevier
-- ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS JPRS)  
+- ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS JPRS)
+- Remote Sensing of Environment
 - Information Fusion  
 - Computers in Industry
 - Pattern Recognition  
@@ -56,5 +57,5 @@
 - Remote Sensing
 
 ## **Conference Reviewer**
-- IGARSS 2025  
+- CVPR、ICCV、ECCV、
 
