@@ -148,7 +148,7 @@ Keyan Chen, **<font color="#000000">Chenyang Liu</font>**, Hao Chen, Haotian Zha
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="http://levir.buaa.edu.cn/publications/Captioning-Based-on-Multilayer-Aggregated-Transformer.pdf"><b>Remote Sensing Image Captioning Based on Multi-Layer Aggregated Transformer</b></a> \\
- *IEEE Geoscience and Remote Sensing Letters (GRSL), IF=8.4, 2022* \\
+ *IEEE Geoscience and Remote Sensing Letters (GRSL), IF=4.4, 2022* \\
 **<font color="#000000">Chenyang Liu</font>**, Rui Zhao, and Zhenwei Shi \\
 [<a href="http://levir.buaa.edu.cn/publications/Captioning-Based-on-Multilayer-Aggregated-Transformer.pdf">PDF</a>] [<a href="https://github.com/Chen-Yang-Liu/MLAT">Code</a>]
 
