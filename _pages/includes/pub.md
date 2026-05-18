@@ -45,7 +45,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">最�
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://ieeexplore.ieee.org/document/10988859/"><b>Text2Earth: Unlocking Text-driven Remote Sensing Image Generation with a Global-Scale Dataset and a Foundation Model</b></a> \\
- *IEEE Geoscience and Remote Sensing Magazine (GRSM), IF=16.4, 2025*, **Popular Article (Top 3)** \\
+ *IEEE Geoscience and Remote Sensing Magazine (GRSM), IF=16.4, 2025* \\
 🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**, **Popular Article (Top 3)** \\
 **<font color="#000000">Chenyang Liu</font>**, Keyan Chen, Rui Zhao, Zhengxia Zou, and Zhenwei Shi \\
 [<a href="https://arxiv.org/abs/2501.00895">PDF</a>] [<a href="https://chen-yang-liu.github.io/Text2Earth/">Project Page</a>] [<a href="https://github.com/chen-yang-liu/Text2Earth">Code</a>] [<a href="https://youtu.be/Rw9wzUpO01M">Video</a>]  \\
