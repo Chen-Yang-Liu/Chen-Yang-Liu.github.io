@@ -32,7 +32,7 @@ Man Wang\*, **<font color="#000000">Chenyang Liu</font>**\*, Wenjun Li, Feng Ni,
 
 <a class=PaperTitle href="https://ieeexplore.ieee.org/document/11159545"><b>Remote Sensing Spatio-Temporal Vision-Language Models: A Comprehensive Survey</b></a> \\
  *IEEE Geoscience and Remote Sensing Magazine (GRSM), IF=16.4, 2025* \\
-🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**, **Popular Article (Top 5)**\\
+🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**, **Most Popular (Top 5)**\\
 **<font color="#000000">Chenyang Liu</font>**, Jiafan Zhang, Keyan Chen, Man Wang, Zhengxia Zou, and Zhenwei Shi \\
 [<a href="https://arxiv.org/abs/2412.02573">PDF</a>] [<a href="https://github.com/Chen-Yang-Liu/Awesome-RS-SpatioTemporal-VLM">Project</a>]
 Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">最新综述 | 北航新作: 首篇遥感时空视觉语言模型综述, 附Github资源合集</a>]
@@ -46,7 +46,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">最�
 
 <a class=PaperTitle href="https://ieeexplore.ieee.org/document/10988859/"><b>Text2Earth: Unlocking Text-driven Remote Sensing Image Generation with a Global-Scale Dataset and a Foundation Model</b></a> \\
  *IEEE Geoscience and Remote Sensing Magazine (GRSM), IF=16.4, 2025* \\
-🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**, **Popular Article (Top 3)** \\
+🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**, **Most Popular (Top 3)** \\
 **<font color="#000000">Chenyang Liu</font>**, Keyan Chen, Rui Zhao, Zhengxia Zou, and Zhenwei Shi \\
 [<a href="https://arxiv.org/abs/2501.00895">PDF</a>] [<a href="https://chen-yang-liu.github.io/Text2Earth/">Project Page</a>] [<a href="https://github.com/chen-yang-liu/Text2Earth">Code</a>] [<a href="https://youtu.be/Rw9wzUpO01M">Video</a>]  \\
 Media report: [<a href="https://mp.weixin.qq.com/s/Id42ape9RMcpL44C7pWgSQ">文绘千里江山！1000万图文数据集Git-10M和生成式基础模型Text2Earth</a>]
@@ -74,7 +74,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">把�
 
 <a class=PaperTitle href="https://ieeexplore.ieee.org/document/10591792"><b>Change-Agent: Toward Interactive Comprehensive Remote Sensing Change Interpretation and Analysis</b></a> \\
  *IEEE Transactions on Geoscience and Remote Sensing (TGRS), IF=8.6, 2024* \\
-🏆️**ESI Highly Cited Paper**, **Popular Article (Top 10)**\\
+🏆️**ESI Highly Cited Paper**, **Most Popular (Top 10)**\\
 **<font color="#000000">Chenyang Liu</font>**, Keyan Chen, Haotian Zhang, Zipeng Qi, Zhengxia Zou, Zhenwei Shi \\
 [<a href="https://ieeexplore.ieee.org/document/10591792">PDF</a>] [<a href="https://github.com/Chen-Yang-Liu/Change-Agent">Code</a>] \\
 Media report: [<a href="https://mp.weixin.qq.com/s/FENxlWZqWERS7fFWLwWwTA">Change-Agent：可交互的遥感变化解译智能体</a>] -- <a href="https://mp.weixin.qq.com/s/FENxlWZqWERS7fFWLwWwTA">遥感与深度学习</a> | <a href="https://mp.weixin.qq.com/s/-iaJjsaEsKr7lkMDEmANVw">我爱计算机视觉</a> | <a href="https://mp.weixin.qq.com/s/aQZTt02obm3MfOtLBAmPTQ"> AIWalker</a> | <a href="https://www.douyin.com/video/7353211020686396713">抖音</a>
@@ -88,7 +88,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/FENxlWZqWERS7fFWLwWwTA">Chang
 
 <a class=PaperTitle href="https://ieeexplore.ieee.org/document/10537177"><b>RSCaMa: Remote Sensing Image Change Captioning with State Space Model</b></a> \\
  *IEEE Geoscience and Remote Sensing Letters (GRSL), IF=4.4, 2024* \\
-🏆️**ESI Highly Cited Paper**, **Popular Article (Top 3)**\\
+🏆️**ESI Highly Cited Paper**, **Most Popular (Top 3)**\\
 **<font color="#000000">Chenyang Liu</font>**, Keyan Chen, Bowen Chen, Haotian Zhang, Zhengxia Zou, Zhenwei Shi \\
 [<a href="https://ieeexplore.ieee.org/document/10537177">PDF</a>] [<a href="https://github.com/Chen-Yang-Liu/RSCaMa">Code</a>] \\
 Media report: [<a href="https://mp.weixin.qq.com/s/EznAxqSw3eBh68IbP-_P9w">RSCaMa：将Mamba用于遥感变化描述任务中，充分利用状态空间模型的特征选择性建模能力！</a>] -- <a href="https://mp.weixin.qq.com/s/EznAxqSw3eBh68IbP-_P9w">GISer阿兴</a> | <a href="https://mp.weixin.qq.com/s/FENxlWZqWERS7fFWLwWwTA">CV看交通</a>
@@ -113,7 +113,7 @@ Jianqi Chen, Yilan Zhang, **<font color="#000000">Chenyang Liu</font>**, Keyan C
 
 <a class=PaperTitle href="https://arxiv.org/abs/2306.16269"><b>RSPrompter: Learning to Prompt for Remote Sensing Instance Segmentation based on Visual Foundation Model</b></a> \\
  *IEEE Transactions on Geoscience and Remote Sensing (TGRS), IF=8.6, 2024* \\
-🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**, **Popular Article (Top 5)**  \\
+🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**, **Most Popular (Top 5)**  \\
 Keyan Chen, **<font color="#000000">Chenyang Liu</font>**, Hao Chen, Haotian Zhang, Wenyuan Li, Zhengxia Zou, and Zhenwei Shi  \\
 [<a href="https://arxiv.org/abs/2306.16269">PDF</a>] [<a href="https://kyanchen.github.io/RSPrompter/">Page</a>] [<a href="https://github.com/KyanChen/RSPrompter">Code</a>] [<a href="https://huggingface.co/spaces/KyanChen/RSPrompter">Demo</a>]
 
