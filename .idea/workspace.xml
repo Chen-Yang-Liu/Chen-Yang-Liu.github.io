@@ -29,13 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d682c29-b5b9-4e74-b2d8-b72c97cc2b82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/HiSem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MetaEarth3D.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text2Earth/Assets/RSICD_result.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text2Earth/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Text2Earth/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/includes/news.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/includes/news.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/includes/pub.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/includes/pub.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/RSVLM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Seg_INR.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/LCY_2/Chen-Yang-Liu.github.io/Text2Earth/Assets",
+    "last_opened_file_path": "F:/LCY_2/Chen-Yang-Liu.github.io/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,8 +70,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\LCY_2\Chen-Yang-Liu.github.io\Text2Earth\Assets" />
       <recent name="F:\LCY_2\Chen-Yang-Liu.github.io\images" />
+      <recent name="F:\LCY_2\Chen-Yang-Liu.github.io\Text2Earth\Assets" />
       <recent name="F:\LCY_2\Chen-Yang-Liu.github.io\Text2Earth\video" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -119,7 +116,8 @@
       <workItem from="1736841639721" duration="4030000" />
       <workItem from="1736944209641" duration="594000" />
       <workItem from="1737556457880" duration="25000" />
-      <workItem from="1748270708190" duration="599000" />
+      <workItem from="1748270708190" duration="1676000" />
+      <workItem from="1779112953553" duration="1502000" />
     </task>
     <task id="LOCAL-00003" summary="02/18 Init">
       <created>1676688450981</created>
