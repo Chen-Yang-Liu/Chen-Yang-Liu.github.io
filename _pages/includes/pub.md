@@ -10,7 +10,7 @@ Some selected papers:
 <a class=PaperTitle href="https://arxiv.org/abs/2604.22828"><b>MetaEarth3D: Unlocking World-scale 3D Generation with Spatially Scalable Generative Modeling</b></a> \\
  *Nature Machine Intelligence (NMI), IF=23.9, (Undergoing review, 2026)* \\
 Jinqi Cao*, Zhiping Yu*, Baihong Lin, **<font color="#C00000">Chenyang Liu</font>***, Zhenwei Shi, and Zhengxia Zou \\
-[<a href="https://arxiv.org/abs/2605.15024">PDF</a>] [<a href="https://github.com/Man-Wang-star/HiSem">Code</a>]
+[<a href="https://arxiv.org/abs/2604.22828">PDF</a>] [<a href="https://jinqicao.github.io/metaearth3d/">Project Page</a>]
 
 </div>
 </div>
@@ -48,7 +48,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">最�
  *IEEE Geoscience and Remote Sensing Magazine (GRSM), IF=16.4, 2025* \\
 🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**, **Popular Article (Top 10)** \\
 **<font color="#C00000">Chenyang Liu</font>**, Keyan Chen, Rui Zhao, Zhengxia Zou, and Zhenwei Shi \\
-[<a href="https://chen-yang-liu.github.io/Text2Earth/">Project Page</a>] [<a href="https://github.com/chen-yang-liu/Text2Earth">Code</a>] [<a href="https://arxiv.org/abs/2501.00895">PDF</a>] [<a href="https://youtu.be/Rw9wzUpO01M">Video</a>]  \\
+[<a href="https://arxiv.org/abs/2501.00895">PDF</a>] [<a href="https://chen-yang-liu.github.io/Text2Earth/">Project Page</a>] [<a href="https://github.com/chen-yang-liu/Text2Earth">Code</a>] [<a href="https://youtu.be/Rw9wzUpO01M">Video</a>]  \\
 Media report: [<a href="https://mp.weixin.qq.com/s/Id42ape9RMcpL44C7pWgSQ">文绘千里江山！1000万图文数据集Git-10M和生成式基础模型Text2Earth</a>]
 
 </div>
