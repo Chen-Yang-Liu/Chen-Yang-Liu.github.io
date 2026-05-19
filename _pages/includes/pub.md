@@ -66,7 +66,7 @@ Zipeng Qi, Guoxi Huang, **<font color="#000000">Chenyang Liu</font>**, and Fei Y
 
 <a class=PaperTitle href="https://arxiv.org/abs/2605.15024"><b>HiSem: Hierarchical Semantic Disentangling for Remote Sensing Image Change Captioning</b></a> \\
  *IEEE Transactions on Geoscience and Remote Sensing (TGRS), IF=8.6, 2026* \\
-Man Wang\*, **<font color="#000000">Chenyang Liu\*</font>**, Wenjun Li, Feng Ni, Bing Jia, Baoqi Huang, Riting Xia, and Zhenwei Shi \\
+Man Wang\*, **<font color="#000000">Chenyang Liu*</font>**, Wenjun Li, Feng Ni, Bing Jia, Baoqi Huang, Riting Xia, and Zhenwei Shi \\
 [<a href="https://arxiv.org/abs/2605.15024">PDF</a>] [<a href="https://github.com/Man-Wang-star/HiSem">Code</a>]
 </div>
 </div>
