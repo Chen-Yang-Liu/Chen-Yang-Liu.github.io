@@ -3,7 +3,7 @@
 My full paper list can be found at <a href='https://scholar.google.com/citations?user=jBnA45cAAAAJ'><img src="https://img.shields.io/badge/Google%20Scholar-orange"></a>.
 Some selected papers:
 
-### Generative Models:
+## Generative Models:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/MetaEarth3D.png"><img src='images/MetaEarth3D.png' alt="MetaEarth3D" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -52,7 +52,7 @@ Zipeng Qi, Guoxi Huang, **<font color="#000000">Chenyang Liu</font>**, and Fei Y
 </div>
 </div>
 
-### Vision-Language Models \& Agent:
+## Vision-Language Models \& Agent:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/HiSem.png"><img src='images/HiSem.png' alt="HiSem" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -154,7 +154,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/EznAxqSw3eBh68IbP-_P9w">RSCaM
 </div>
 
 
-### Vision Models:
+## Vision Models:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Dynamicvis.png"><img src='images/Dynamicvis.png' alt="Dynamicvis" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
