@@ -15,6 +15,17 @@ Jinqi Cao\*, Zhiping Yu\*, Baihong Lin, **<font color="#000000">Chenyang Liu</fo
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/MetaEarth_MM.png"><img src='images/MetaEarth_MM.png' alt="MetaEarth_MM" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a class=PaperTitle href="https://ieeexplore.ieee.org/document/10768939/"><b>MetaEarth-MM: Unified Multimodal Remote Sensing Image Generation with Scene-centered Joint Modeling</b></a> \\
+ *Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IF=18.6, (Undergoing review, 2026)* \\
+Zhiping Yu, **<font color="#000000">Chenyang Liu</font>**, Jinqi Cao, Qinzhe Yang, Siwei Yu, Zhengxia Zou, and Zhenwei Shi \\
+[<a href="https://arxiv.org/abs/2405.13570">PDF</a>] [<a href="https://jiupinjia.github.io/metaearth/">Project</a>]\\
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Text2Earth_v2.gif"><img src='images/Text2Earth_v2.gif' alt="Text2Earth" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
