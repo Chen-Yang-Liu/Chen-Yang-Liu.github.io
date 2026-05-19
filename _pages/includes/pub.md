@@ -52,7 +52,7 @@ Zipeng Qi, Guoxi Huang, **<font color="#000000">Chenyang Liu</font>**, and Fei Y
 </div>
 </div>
 
-### Vision-Language Models & Agent:
+### Vision-Language Models \& Agent:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/HiSem.png"><img src='images/HiSem.png' alt="HiSem" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
