@@ -47,8 +47,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">æŠŠæ•
 <a class=PaperTitle href="https://arxiv.org/abs/2311.18435"><b>Layered Rendering Diffusion Model for Controllable Zero-Shot Image Synthesis</b></a> \\
  *European Conference on Computer Vision (ECCV), 2024* \\
 Zipeng Qi, Guoxi Huang, **<font color="#000000">Chenyang Liu</font>**, and Fei Ye \\
-[<a href="https://arxiv.org/abs/2311.18435">PDF</a>] [<a href="https://qizipeng.github.io/LRDiff_projectPage/">Project</a>]\\
-
+[<a href="https://arxiv.org/abs/2311.18435">PDF</a>] [<a href="https://qizipeng.github.io/LRDiff_projectPage/">Project</a>]
 </div>
 </div>
 
@@ -60,7 +59,6 @@ Zipeng Qi, Guoxi Huang, **<font color="#000000">Chenyang Liu</font>**, and Fei Y
  *IEEE Transactions on Geoscience and Remote Sensing (TGRS), IF=8.6, 2026* \\
 Man Wang\*, **<font color="#000000">Chenyang Liu\*</font>**, Wenjun Li, Feng Ni, Bing Jia, Baoqi Huang, Riting Xia, and Zhenwei Shi \\
 [<a href="https://arxiv.org/abs/2605.15024">PDF</a>] [<a href="https://github.com/Man-Wang-star/HiSem">Code</a>]
-
 </div>
 </div>
 
