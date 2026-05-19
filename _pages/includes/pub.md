@@ -11,7 +11,6 @@ Some selected papers:
  *Submitted to Nature Machine Intelligence (NMI), IF=23.9, (Undergoing review, 2026)* \\
 Jinqi Cao\*, Zhiping Yu\*, Baihong Lin, **<font color="#000000">Chenyang Liu</font>**, Zhenwei Shi, and Zhengxia Zou \\
 [<a href="https://arxiv.org/abs/2604.22828">PDF</a>] [<a href="https://jinqicao.github.io/metaearth3d/">Project Page</a>]
-
 </div>
 </div>
 
@@ -21,8 +20,7 @@ Jinqi Cao\*, Zhiping Yu\*, Baihong Lin, **<font color="#000000">Chenyang Liu</fo
 <a class=PaperTitle href="https://ieeexplore.ieee.org/document/10768939/"><b>MetaEarth-MM: Unified Multimodal Remote Sensing Image Generation with Scene-centered Joint Modeling</b></a> \\
  *Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IF=18.6, (Undergoing review, 2026)* \\
 Zhiping Yu, **<font color="#000000">Chenyang Liu</font>**, Jinqi Cao, Qinzhe Yang, Siwei Yu, Zhengxia Zou, and Zhenwei Shi \\
-[<a href="https://arxiv.org/abs/2405.13570">PDF</a>] [<a href="https://jiupinjia.github.io/metaearth/">Project</a>]\\
-
+[<a href="https://arxiv.org/abs/2405.13570">PDF</a>] [<a href="https://jiupinjia.github.io/metaearth/">Project</a>]
 </div>
 </div>
 
