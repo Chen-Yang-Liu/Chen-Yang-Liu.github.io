@@ -3,8 +3,56 @@
 My full paper list can be found at <a href='https://scholar.google.com/citations?user=jBnA45cAAAAJ'><img src="https://img.shields.io/badge/Google%20Scholar-orange"></a>.
 Some selected papers:
 
-### Vision-Language Learning:
+### Generative Models:
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/MetaEarth3D.png"><img src='images/MetaEarth3D.png' alt="MetaEarth3D" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
 
+<a class=PaperTitle href="https://arxiv.org/abs/2604.22828"><b>MetaEarth3D: Unlocking World-scale 3D Generation with Spatially Scalable Generative Modeling</b></a> \\
+ *Submitted to Nature Machine Intelligence (NMI), IF=23.9, (Undergoing review, 2026)* \\
+Jinqi Cao\*, Zhiping Yu\*, Baihong Lin, **<font color="#000000">Chenyang Liu</font>**, Zhenwei Shi, and Zhengxia Zou \\
+[<a href="https://arxiv.org/abs/2604.22828">PDF</a>] [<a href="https://jinqicao.github.io/metaearth3d/">Project Page</a>]
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Text2Earth_v2.gif"><img src='images/Text2Earth_v2.gif' alt="Text2Earth" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a class=PaperTitle href="https://ieeexplore.ieee.org/document/10988859/"><b>Text2Earth: Unlocking Text-driven Remote Sensing Image Generation with a Global-Scale Dataset and a Foundation Model</b></a> \\
+ *IEEE Geoscience and Remote Sensing Magazine (GRSM), IF=16.4, 2025* \\
+🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**, **Most Popular (Top 3)** \\
+**<font color="#000000">Chenyang Liu</font>**, Keyan Chen, Rui Zhao, Zhengxia Zou, and Zhenwei Shi \\
+[<a href="https://arxiv.org/abs/2501.00895">PDF</a>] [<a href="https://chen-yang-liu.github.io/Text2Earth/">Project Page</a>] [<a href="https://github.com/chen-yang-liu/Text2Earth">Code</a>] [<a href="https://youtu.be/Rw9wzUpO01M">Video</a>]  \\
+Media report: [<a href="https://mp.weixin.qq.com/s/Id42ape9RMcpL44C7pWgSQ">文绘千里江山！1000万图文数据集Git-10M和生成式基础模型Text2Earth</a>]
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/MetaEarth.png"><img src='images/MetaEarth.png' alt="MetaEarth" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a class=PaperTitle href="https://ieeexplore.ieee.org/document/10768939/"><b>MetaEarth: A Generative Foundation Model for Global-Scale Remote Sensing Image Generation</b></a> \\
+ *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IF=18.6, 2025* \\
+🏆️**ESI Highly Cited Paper**  \\
+Zhiping Yu, **<font color="#000000">Chenyang Liu</font>**, Liqin Liu, Zhenwei Shi, and Zhengxia Zou \\
+[<a href="https://arxiv.org/abs/2405.13570">PDF</a>] [<a href="https://jiupinjia.github.io/metaearth/">Project</a>]\\
+Media report: [<a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">把整个地球装进神经网络，北航团队推出全球遥感图像生成模型</a>] -- <a href="https://www.nsfc.gov.cn/publish/portal0/tab448/info92986.htm">国家自然科学基金委</a> | <a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">量子位</a> | <a href="https://mp.weixin.qq.com/s/JrFUIR2rLxJFMst7JXL3Mw">中国图象图形学学会CSIG</a> | <a href="https://mp.weixin.qq.com/s/Dn51xNhfM6e5JKO2XWq6ag">CVer</a> | <a href="https://mp.weixin.qq.com/s/K-SrPA5vRUiuXUN3ZxOALA">惠天地</a> | <a href="https://mp.weixin.qq.com/s/XnkyDefw7SpZmySdaIczag">深圳市人工智能产业协会</a>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Qi_ECCV2024.png"><img src='images/Qi_ECCV2024.png' alt="Qi_ECCV2024" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a class=PaperTitle href="https://arxiv.org/abs/2311.18435"><b>Layered Rendering Diffusion Model for Controllable Zero-Shot Image Synthesis</b></a> \\
+ *European Conference on Computer Vision (ECCV), 2024* \\
+Zipeng Qi, Guoxi Huang, **<font color="#000000">Chenyang Liu</font>**, and Fei Ye \\
+[<a href="https://arxiv.org/abs/2311.18435">PDF</a>] [<a href="https://qizipeng.github.io/LRDiff_projectPage/">Project</a>]\\
+
+</div>
+</div>
+
+### Vision-Language Models & Agent:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/HiSem.png"><img src='images/HiSem.png' alt="HiSem" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -30,8 +78,19 @@ Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">最�
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/RSRefSeg2.png"><img src='images/RSRefSeg2.png' alt="RSRefSeg2" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Change_Agent.png"><img src='images/Change_Agent.png' alt="Change_Agent" width="100%"></a></div></div>
+
+<a class=PaperTitle href="https://arxiv.org/abs/2507.06231"><b>RSRefSeg 2: Decoupling Referring Remote Sensing Image Segmentation with Foundation Models</b></a> \\
+ *IEEE Transactions on Geoscience and Remote Sensing (TGRS), IF=8.6, 2025* \\
+Keyan Chen, **<font color="#000000">Chenyang Liu</font>**, Bowen Chen, Jiafan Zhang, Zipeng Qi, Zhengxia Zou, Zhenwei Shi \\
+[<a href="https://arxiv.org/abs/2507.06231">PDF</a>] [<a href="https://github.com/KyanChen/RSRefSeg2">Code</a>] \\
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Change-Agent.png"><img src='images/Change-Agent.png' alt="Change-Agent" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -94,46 +153,53 @@ Media report: [<a href="https://mp.weixin.qq.com/s/EznAxqSw3eBh68IbP-_P9w">RSCaM
 </div>
 </div>
 
-### Generative AI Models:
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/MetaEarth3D.png"><img src='images/MetaEarth3D.png' alt="MetaEarth3D" width="100%"></a></div></div>
+
+### Vision Models:
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Dynamicvis.png"><img src='images/Dynamicvis.png' alt="Dynamicvis" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
-<a class=PaperTitle href="https://arxiv.org/abs/2604.22828"><b>MetaEarth3D: Unlocking World-scale 3D Generation with Spatially Scalable Generative Modeling</b></a> \\
- *Nature Machine Intelligence (NMI), IF=23.9, (Undergoing review, 2026)* \\
-Jinqi Cao\*, Zhiping Yu\*, Baihong Lin, **<font color="#000000">Chenyang Liu</font>**, Zhenwei Shi, and Zhengxia Zou \\
-[<a href="https://arxiv.org/abs/2604.22828">PDF</a>] [<a href="https://jinqicao.github.io/metaearth3d/">Project Page</a>]
+<a class=PaperTitle href="https://arxiv.org/abs/2503.16426"><b>DynamicVis: Dynamic Visual Perception for Efficient Remote Sensing Foundation Models</b></a> \\
+ *Submitted to ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS & JPRS), IF=12.2, (Undergoning review, 2026)* \\
+Keyan Chen, **<font color="#000000">Chenyang Liu</font>**, Bowen Chen, Wenyuan Li, Zhengxia Zou, Shijian Lu, and Zhenwei Shi  \\
+[<a href="https://arxiv.org/abs/2503.16426">PDF</a>] [<a href="https://github.com/KyanChen/DynamicVis">Code</a>]
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Text2Earth_v2.gif"><img src='images/Text2Earth_v2.gif' alt="Text2Earth" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Taco.png"><img src='images/Taco.png' alt="Taco" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
-<a class=PaperTitle href="https://ieeexplore.ieee.org/document/10988859/"><b>Text2Earth: Unlocking Text-driven Remote Sensing Image Generation with a Global-Scale Dataset and a Foundation Model</b></a> \\
- *IEEE Geoscience and Remote Sensing Magazine (GRSM), IF=16.4, 2025* \\
-🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**, **Most Popular (Top 3)** \\
-**<font color="#000000">Chenyang Liu</font>**, Keyan Chen, Rui Zhao, Zhengxia Zou, and Zhenwei Shi \\
-[<a href="https://arxiv.org/abs/2501.00895">PDF</a>] [<a href="https://chen-yang-liu.github.io/Text2Earth/">Project Page</a>] [<a href="https://github.com/chen-yang-liu/Text2Earth">Code</a>] [<a href="https://youtu.be/Rw9wzUpO01M">Video</a>]  \\
-Media report: [<a href="https://mp.weixin.qq.com/s/Id42ape9RMcpL44C7pWgSQ">文绘千里江山！1000万图文数据集Git-10M和生成式基础模型Text2Earth</a>]
+<a class=PaperTitle href="https://arxiv.org/abs/2511.20306"><b>TaCo: Capturing Spatio-Temporal Semantic Consistency in Remote Sensing Change Detection</b></a> \\
+ *Submitted to European Conference on Computer Vision (ECCV), (Undergoning review, 2026)* \\
+Han Guo, **<font color="#000000">Chenyang Liu</font>**, Haotian Zhang, Bowen Chen, Zhengxia Zou, and Zhenwei Shi  \\
+[<a href="https://arxiv.org/abs/2511.20306">PDF</a>] 
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/MetaEarth.png"><img src='images/MetaEarth.png' alt="MetaEarth" width="100%"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Mamba_survey.png"><img src='images/Mamba_survey.png' alt="Mamba_survey" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
-<a class=PaperTitle href="https://ieeexplore.ieee.org/document/10768939/"><b>MetaEarth: A Generative Foundation Model for Global-Scale Remote Sensing Image Generation</b></a> \\
- *IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IF=18.6, 2025* \\
-🏆️**ESI Highly Cited Paper**  \\
-Zhiping Yu, **<font color="#000000">Chenyang Liu</font>**, Liqin Liu, Zhenwei Shi, and Zhengxia Zou \\
-[<a href="https://arxiv.org/abs/2405.13570">PDF</a>] [<a href="https://jiupinjia.github.io/metaearth/">Project</a>]\\
-Media report: [<a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">把整个地球装进神经网络，北航团队推出全球遥感图像生成模型</a>] -- <a href="https://www.nsfc.gov.cn/publish/portal0/tab448/info92986.htm">国家自然科学基金委</a> | <a href="https://mp.weixin.qq.com/s/IEe-tj4B0QWk6hX_fI-UHA">量子位</a> | <a href="https://mp.weixin.qq.com/s/JrFUIR2rLxJFMst7JXL3Mw">中国图象图形学学会CSIG</a> | <a href="https://mp.weixin.qq.com/s/Dn51xNhfM6e5JKO2XWq6ag">CVer</a> | <a href="https://mp.weixin.qq.com/s/K-SrPA5vRUiuXUN3ZxOALA">惠天地</a> | <a href="https://mp.weixin.qq.com/s/XnkyDefw7SpZmySdaIczag">深圳市人工智能产业协会</a>
+<a class=PaperTitle href="https://www.sciengine.com/SCIS/doi/10.1007/s11432-025-4780-1"><b>State Space Models Meet Remote Sensing: A Survey</b></a> \\
+ *SCIENCE CHINA Information Sciences, IF=7.6, 2026* \\
+Qinzhe Yang, **<font color="#000000">Chenyang Liu</font>**, Jia Xu, Zhenwei Shi, and Zhengxia Zou  \\
+[<a href="https://www.sciengine.com/SCIS/doi/10.1007/s11432-025-4780-1">PDF</a>] [<a href="https://github.com/QinzheYang/Awesome-RS-State-Space-Model">Github</a>]
 
 </div>
 </div>
 
 
-### Visual Foundation Models:
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/cdmamba.png"><img src='images/cdmamba.png' alt="cdmamba" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a class=PaperTitle href="https://ieeexplore.ieee.org/abstract/document/10902569"><b>CDMamba: Incorporating Local Clues Into Mamba for Remote Sensing Image Binary Change Detection</b></a> \\
+ *IEEE Transactions on Geoscience and Remote Sensing (TGRS), IF=8.6, 2025* \\
+🏆️**ESI Highly Cited Paper**, 🔥**ESI Hot Paper**  \\
+Haotian Zhang, Keyan Chen, **<font color="#000000">Chenyang Liu</font>**, Hao Chen, Zhengxia Zou, and Zhenwei Shi  \\
+[<a href="https://ieeexplore.ieee.org/abstract/document/10902569">PDF</a>] [<a href="https://github.com/zmoka-zht/CDMamba">Code</a>]
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/RSPrompter.png"><img src='images/RSPrompter.png' alt="RSPrompter" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
@@ -146,6 +212,19 @@ Keyan Chen, **<font color="#000000">Chenyang Liu</font>**, Hao Chen, Haotian Zha
 
 </div>
 </div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Chen_Spectral2024.png"><img src='images/Chen_Spectral2024.png' alt="Chen_Spectral2024" width="100%"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a class=PaperTitle href="https://ieeexplore.ieee.org/abstract/document/10654291"><b>Spectral-Cascaded Diffusion Model for Remote Sensing Image Spectral Super-Resolution</b></a> \\
+ *IEEE Transactions on Geoscience and Remote Sensing (TGRS), IF=8.6, 2024* \\
+Bowen Chen, Liqin Liu, **<font color="#000000">Chenyang Liu</font>**, Zhengxia Zou, Zhenwei Shi  \\
+[<a href="https://ieeexplore.ieee.org/abstract/document/10654291">PDF</a>] [<a href="https://github.com/Mr-Bamboo/SCDM">Code</a>]
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a href="images/Attack.gif"><img src='images/Attack.gif' alt="Attack" width="100%"></a></div></div>
 <div class='paper-box-text' markdown="1">
