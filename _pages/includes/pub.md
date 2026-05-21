@@ -94,8 +94,7 @@ Media report: [<a href="https://mp.weixin.qq.com/s/YPTs1zwQav9EU9qY68_CZg">æœ€æ–
 <a class=PaperTitle href="https://arxiv.org/abs/2507.06231"><b>RSRefSeg 2: Decoupling Referring Remote Sensing Image Segmentation with Foundation Models</b></a> \\
  *IEEE Transactions on Geoscience and Remote Sensing (TGRS), IF=8.6, 2025* \\
 Keyan Chen, **<font color="#000000">Chenyang Liu</font>**, Bowen Chen, Jiafan Zhang, Zipeng Qi, Zhengxia Zou, Zhenwei Shi \\
-[<a href="https://arxiv.org/abs/2507.06231">PDF</a>] [<a href="https://github.com/KyanChen/RSRefSeg2">Code</a>] \\
-
+[<a href="https://arxiv.org/abs/2507.06231">PDF</a>] [<a href="https://github.com/KyanChen/RSRefSeg2">Code</a>]
 </div>
 </div>
 
