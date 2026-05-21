@@ -1,6 +1,6 @@
 
 # 📝 Publications 
-My research lies at the intersection of computer vision, generative AI, and earth observation, with a particular focus on Vision-Language Models & AI Agents, Generative AI & World Models, and Vision Foundation Models.
+My research lies at the intersection of computer vision and earth observation, with a particular focus on **Vision-Language Models & AI Agents, Generative AI & World Models, and Vision Foundation Models**.
 
 My full paper list can be found at <a href='https://scholar.google.com/citations?user=jBnA45cAAAAJ'><img src="https://img.shields.io/badge/Google%20Scholar-orange"></a>.
 Some selected papers:
